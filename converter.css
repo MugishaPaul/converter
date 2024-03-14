@@ -1,0 +1,31 @@
+.converter {
+    width: 350px;
+    margin: 70px auto;
+    padding: 40px;
+    border: 5px solid #120101;
+    border-radius: 50px;
+    text-align:center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.conversion {
+    margin-bottom: 30px; 
+}
+
+.input-fields, .output-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+input[type="number"], input[type="text"], select {
+    width: 50%;
+    padding: 8px;
+}
+
+span {
+    font-weight: bold; font-size: small; 
+}
